@@ -1,33 +1,24 @@
-.color:nth-child( 1 ) {
-  background-color: black;
-  width: 40px;
-  height: 40px;
-  border: 1px solid black;
-  display: inline-block;
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url('/street-maior.jpg');
 }
 
-.color:nth-child( 2 ) {
-  background-color: red;
-  width: 40px;
-  height: 40px;
-  border: 1px solid black;
-  display: inline-block;
+#title {
+  background-color:rgb(76, 43, 226);
 }
 
-.color:nth-child( 3 ) {
-  background-color: yellow;
-  width: 40px;
-  height: 40px;
-  border: 1px solid black;
-  display: inline-block;
+#color-palette {
+  background-color:rgb(40, 40, 202);
+  margin-bottom: 20px;
 }
 
-.color:nth-child( 4 ) {
-  background-color: green;
+.color {
   width: 40px;
   height: 40px;
   border: 1px solid black;
   display: inline-block;
+  margin-top: 5px;
 }
 
 .pixel {
@@ -36,4 +27,52 @@
   height: 40px;
   border: 1px solid black;
   display: inline-block;
+}
+
+#board-all {
+  margin-top: 30px;
+}
+
+.section-pixels {
+  margin-bottom: -5px;
+}
+
+#board-size {
+  width: 100px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+#generate-board {
+  background-color:rgb(41, 77, 145);
+  color: black;
+  font-size: 14px;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  font-family: sans-serif;
+}
+
+#change-color {
+  background-color:rgb(41, 77, 145);
+  color: black;
+  font-size: 14px;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  font-family: sans-serif;
+}
+
+#clear-board {
+  background-color:rgb(41, 77, 145);
+  color: black;
+  padding: 10px 10px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  font-family: sans-serif;
 }
