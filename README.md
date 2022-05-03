@@ -8,7 +8,7 @@ https://lucasam1992.github.io/project-pixels-art/
  - HTML
  - CSS
  - DOM
- - Javascript
+ - Javascript - Vanilla.js
 
 ## Habilidades
 
